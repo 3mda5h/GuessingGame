@@ -1,0 +1,13 @@
+include <iostream>
+
+using namespace std;
+
+int main()
+{
+  srand(time(NULL));
+  int randnumber = rand() % 101;
+  int guess = 0;
+  cout << "Guess the random number from 0 to 100" << endl;
+  cin >> guess;
+  cout << "you guessed: " << guess;
+}
